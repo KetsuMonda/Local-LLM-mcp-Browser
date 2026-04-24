@@ -1,0 +1,64 @@
+# SearXNG Settings
+# Privacy-First Research MCP 用設定
+
+use_default_settings: true
+
+general:
+  debug: false
+  instance_name: "Privacy-First Research"
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  default_lang: "all"
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "change-me-to-random-string"
+
+ui:
+  default_theme: simple
+  query_in_title: true
+  results_on_new_tab: false
+
+# JSON API を有効化（MCPサーバーから利用）
+search:
+  formats:
+    - html
+    - json
+
+# 検索エンジン設定
+engines:
+  - name: google
+    engine: google
+    shortcut: g
+    disabled: true
+
+  - name: bing
+    engine: bing
+    shortcut: b
+    disabled: false
+
+  - name: duckduckgo
+    engine: duckduckgo
+    shortcut: ddg
+    disabled: false
+
+  - name: wikipedia
+    engine: wikipedia
+    shortcut: wp
+    disabled: false
+
+  - name: arxiv
+    engine: arxiv
+    shortcut: arx
+    disabled: false
+
+outgoing:
+  # プロキシ設定（必要に応じて）
+  # proxies:
+  #   all://:
+  #     - socks5h://proxy:9050
+  request_timeout: 10.0
+  max_request_timeout: 15.0

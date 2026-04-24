@@ -1,0 +1,11 @@
+{
+  "searxng_url": "http://localhost:8080",
+  "cache_ttl_hours": 24,
+  "max_concurrent_fetches": 3,
+  "fetch_timeout_ms": 10000,
+  "default_privacy_mode": "balanced",
+  "rate_limit": {
+    "requests_per_minute": 10,
+    "per_domain_rpm": 3
+  }
+}
