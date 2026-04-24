@@ -1,4 +1,4 @@
-# MCP AI Evidence Browser
+# Local-LLM-mcp-Browser
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20this%20project-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/ketsumonda)
 
