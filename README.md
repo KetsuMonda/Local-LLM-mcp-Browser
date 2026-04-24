@@ -1,5 +1,7 @@
 # MCP AI Evidence Browser
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20this%20project-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/ketsumonda)
+
 > **⚠️ 本プロジェクトは個人実験用として公開しています。継続的なメンテナンスやサポートは予定していません。AS-ISでご利用ください。**
 
 AIエージェントがWeb情報を検索・検証・引用するための **Evidence抽出ランタイム**。  
